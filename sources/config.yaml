@@ -1,0 +1,49 @@
+sources:
+  - LeagueGothic.glyphs
+  - LeagueGothic-Italic.glyphs
+axisOrder:
+  - wdth
+familyName: League Gothic
+stat:
+  LeagueGothic[wdth].ttf:
+  - name: Width
+    tag: wdth
+    values:
+    - name: Condensed
+      value: 75
+    - name: SemiCondensed
+      value: 87.5 #Note, the current Builder.schema doesn't allow for Float values. I've modified the schema file myself to enable this. 
+    - name: Normal
+      value: 100
+      flags: 2
+    - name: SemiExpanded
+      value: 112.5
+    - name: Expanded
+      value: 125
+  - name: Italic
+    tag: ital
+    values:
+    - name: Roman
+      value: 0
+      flags: 2
+  LeagueGothic-Italic[wdth].ttf:
+  - name: Width
+    tag: wdth
+    values:
+    - name: Condensed
+      value: 75
+    - name: SemiCondensed
+      value: 87.5
+    - name: Normal
+      value: 100
+      flags: 2
+    - name: SemiExpanded
+      value: 112.5
+    - name: Expanded
+      value: 125
+  - name: Italic
+    tag: ital
+    values:
+    - name: Italic
+      value: 1
+autohintTTF: False

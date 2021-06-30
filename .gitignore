@@ -1,14 +1,14 @@
-.fontship
-LeagueGothic-*
+*~
+venv
+build.stamp
+proof
+
+# OS generated files #
+######################
 .DS_Store
-*(Autosaved)*
-tags
-*.otf
-*.ttf
-*.woff
-*.woff2
-!*/LeagueGothic-*
-sources/*(Autosaved).glyphs
-sources/*_backups
-sources/*.sfd
-sources/*.ufo
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
