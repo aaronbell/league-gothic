@@ -44908,6 +44908,20 @@ unicode = 0094;
 );
 instances = (
 {
+customParameters = (
+{
+name = preferredFamilyName;
+value = "League Gothic";
+},
+{
+name = preferredSubfamilyName;
+value = Condensed;
+},
+{
+name = fileName;
+value = "LeagueGothicCondensed-Regular";
+}
+);
 interpolationWeight = 3;
 interpolationWidth = 0;
 instanceInterpolations = {
@@ -44917,6 +44931,20 @@ name = Condensed;
 widthClass = Condensed;
 },
 {
+customParameters = (
+{
+name = preferredFamilyName;
+value = "League Gothic";
+},
+{
+name = preferredSubfamilyName;
+value = SemiCondensed;
+},
+{
+name = fileName;
+value = "LeagueGothicSemiCondensed-Regular";
+}
+);
 interpolationWeight = 4;
 interpolationWidth = 0;
 instanceInterpolations = {
@@ -44935,6 +44963,20 @@ instanceInterpolations = {
 name = Regular;
 },
 {
+customParameters = (
+{
+name = preferredFamilyName;
+value = "League Gothic";
+},
+{
+name = preferredSubfamilyName;
+value = SemiExpanded;
+},
+{
+name = fileName;
+value = "LeagueGothicSemiExpanded-Regular";
+}
+);
 interpolationWeight = 6;
 interpolationWidth = 0;
 instanceInterpolations = {
@@ -44945,6 +44987,20 @@ name = SemiExpanded;
 widthClass = "Semi Expanded";
 },
 {
+customParameters = (
+{
+name = preferredFamilyName;
+value = "League Gothic";
+},
+{
+name = preferredSubfamilyName;
+value = Expanded;
+},
+{
+name = fileName;
+value = "LeagueGothicExpanded-Regular";
+}
+);
 interpolationWeight = 7;
 interpolationWidth = 0;
 instanceInterpolations = {

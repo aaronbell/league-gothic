@@ -1,5 +1,8 @@
 {
 .appVersion = "1342";
+DisplayStrings = (
+t
+);
 copyright = "Copyright 2020 The League Gothic Project Authors (https://github.com/theleagueof/league-gothic)";
 customParameters = (
 {
@@ -149,6 +152,7 @@ value = -530;
 );
 descender = -530;
 id = "38BA14EB-08C8-4487-88C1-8F957131FCA1";
+italicAngle = 12;
 weightValue = 3;
 width = Condensed;
 xHeight = 1094;
@@ -197,6 +201,7 @@ value = -530;
 );
 descender = -530;
 id = "E10EC336-1202-48FF-9A55-15876E80CDFD";
+italicAngle = 12;
 weightValue = 5;
 xHeight = 1094;
 },
@@ -244,6 +249,7 @@ value = -530;
 );
 descender = -530;
 id = "A5A4D350-C0CB-4C36-867F-06890CC9F434";
+italicAngle = 12;
 weightValue = 7;
 xHeight = 1094;
 }
@@ -21141,7 +21147,7 @@ unicode = 00DF;
 {
 color = 6;
 glyphname = t;
-lastChange = "2020-01-27 22:16:02 +0000";
+lastChange = "2021-07-13 20:50:04 +0000";
 layers = (
 {
 anchors = (
@@ -21287,6 +21293,12 @@ nodes = (
 }
 );
 };
+guideLines = (
+{
+angle = 77.9052;
+position = "{343, 912}";
+}
+);
 layerId = "38BA14EB-08C8-4487-88C1-8F957131FCA1";
 paths = (
 {
@@ -21300,7 +21312,7 @@ nodes = (
 "269 188 OFFCURVE",
 "253 188 CURVE SMOOTH",
 "208 188 OFFCURVE",
-"200 244 OFFCURVE",
+"201 244 OFFCURVE",
 "227 368 CURVE SMOOTH",
 "343 912 LINE",
 "427 912 LINE",
@@ -21313,7 +21325,7 @@ nodes = (
 "123 912 LINE",
 "189 912 LINE",
 "70 352 LINE SMOOTH",
-"15 97 OFFCURVE",
+"16 97 OFFCURVE",
 "48 -16 OFFCURVE",
 "176 -16 CURVE SMOOTH"
 );
@@ -46239,6 +46251,20 @@ unicode = 0094;
 );
 instances = (
 {
+customParameters = (
+{
+name = preferredFamilyName;
+value = "League Gothic";
+},
+{
+name = preferredSubfamilyName;
+value = "Condensed Italic";
+},
+{
+name = fileName;
+value = "LeagueGothicCondensed-Italic";
+}
+);
 interpolationCustom = 12;
 interpolationWeight = 3;
 instanceInterpolations = {
@@ -46250,6 +46276,20 @@ name = "Condensed Italic";
 widthClass = Condensed;
 },
 {
+customParameters = (
+{
+name = preferredFamilyName;
+value = "League Gothic";
+},
+{
+name = preferredSubfamilyName;
+value = "SemiCondensed Italic";
+},
+{
+name = fileName;
+value = "LeagueGothicSemiCondensed-Italic";
+}
+);
 interpolationCustom = 12;
 interpolationWeight = 4;
 instanceInterpolations = {
@@ -46272,6 +46312,20 @@ linkStyle = Regular;
 name = Italic;
 },
 {
+customParameters = (
+{
+name = preferredFamilyName;
+value = "League Gothic";
+},
+{
+name = preferredSubfamilyName;
+value = "SemiExpanded Italic";
+},
+{
+name = fileName;
+value = "LeagueGothicSemiExpanded-Italic";
+}
+);
 interpolationCustom = 12;
 interpolationWeight = 6;
 instanceInterpolations = {
@@ -46284,6 +46338,20 @@ name = "SemiExpanded Italic";
 widthClass = "Semi Expanded";
 },
 {
+customParameters = (
+{
+name = preferredFamilyName;
+value = "League Gothic";
+},
+{
+name = preferredSubfamilyName;
+value = "Expanded Italic";
+},
+{
+name = fileName;
+value = "LeagueGothicExpanded-Italic";
+}
+);
 interpolationCustom = 12;
 interpolationWeight = 7;
 instanceInterpolations = {
